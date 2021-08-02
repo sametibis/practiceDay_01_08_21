@@ -46,11 +46,5 @@ public class Q5 {
 		}
 		return newList;
 	}
-	/*
-	 * static ArrayList<Integer> remover(ArrayList<Integer> list) { for (int i = 0;
-	 * i < list.size(); i++) { int count = 0; for (int j = 0; j < list.size(); j++)
-	 * { if (list.get(i).equals(list.get(j))) count++; } if (count > 1) {
-	 * list.remove(list.get(i)); i--; } } return list; return new ArrayList<>(new
-	 * HashSet<>(list)); }
-	 */
+	
 }
